@@ -13,3 +13,8 @@ Cyclic
 1. Create a very basic expresss application
 2. Create a new github repo - not an organisation repo
 3. Push your app to the repo;
+
+
+Things to keep in mind.
+
+In package.json, scripts don't add nodemon
