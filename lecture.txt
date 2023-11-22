@@ -1,0 +1,15 @@
+Deployment
+
+We basically are renting out computers owned by others
+
+Others - 
+AWS by Amazon -
+GCP by Google - 
+Azure by Msft - 
+
+Cyclic
+
+
+1. Create a very basic expresss application
+2. Create a new github repo - not an organisation repo
+3. Push your app to the repo;
