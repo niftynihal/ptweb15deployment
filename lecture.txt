@@ -17,4 +17,6 @@ Cyclic
 
 Things to keep in mind.
 
-In package.json, scripts don't add nodemon
+1. In package.json, scripts don't add nodemon
+2. have a .gitignore file where you add things that you don't want to push to github 
+    - like node_modules/, .env

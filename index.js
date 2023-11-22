@@ -1,5 +1,5 @@
 const express = require("express")
-
+require("dotenv").config()
 
 const app = express();
 
@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/test", (req, res) => {
-    res.send({msg : "API testing"})
+    res.send({msg : "API testing for the secret " + process.env.secret})
 })
 
 app.listen(8000, () => {
